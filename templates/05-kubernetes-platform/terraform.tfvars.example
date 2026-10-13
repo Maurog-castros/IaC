@@ -1,0 +1,4 @@
+kube_context = "kind-iac"
+name         = "iac-platform"
+# Imagen REAL: UID 10001, filesystem read-only, HTTP / en 8080, sin egress.
+image = "example.com/app@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

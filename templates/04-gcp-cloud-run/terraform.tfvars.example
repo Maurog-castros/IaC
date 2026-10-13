@@ -1,0 +1,6 @@
+project_id     = "replace-with-project"
+region         = "us-central1"
+name           = "iac-run"
+# Sustituir por digest REAL de una imagen accesible que escuche en 8080.
+image          = "us-docker.pkg.dev/replace/project/app@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+invoker_member = "serviceAccount:caller@replace-with-project.iam.gserviceaccount.com"
