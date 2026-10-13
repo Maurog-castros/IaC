@@ -77,7 +77,7 @@ docs/operating-model.md
 .github/workflows/validate.yml
 ```
 
-## Lectura de nivel senior
+## Lectura General
 
 [Modelo operativo](docs/operating-model.md): estados, bootstrap, drift, promoción,
 rollback, blast radius y evolución a producción. Los README locales explican los
