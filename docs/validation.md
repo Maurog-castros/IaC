@@ -21,4 +21,6 @@ Pruebas negativas: una sola AZ, nombre Azure inválido, imagen mutable y invoker
 No se ejecutaron planes/applies con proveedores reales ni smoke tests de cloud.
 Los digests e identificadores de los ejemplos requieren sustitución. Los diagramas
 se entregan como Mermaid renderizable por GitHub; no se exportaron imágenes.
-CI ejecuta la misma suite en Linux; consultar el run del commit para su resultado.
+CI ejecuta la misma suite en Linux. La primera ejecución completó los seis jobs
+con éxito: [run 38460760355](https://github.com/Maurog-castros/IaC/actions/runs/38460760355).
+La revisión posterior fija runner y Actions; consultar su run para el resultado vigente.

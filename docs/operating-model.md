@@ -41,8 +41,8 @@ flowchart TB
 
 ## Promoción y supply chain
 
-CI de este repo sólo valida. Para producción, fijar Actions por SHA revisado,
-identidad OIDC sin secretos persistentes y entornos GitHub con aprobación.
+CI de este repo sólo valida, usa Ubuntu 24.04 y Actions fijadas por SHA de release.
+Para producción, agregar identidad OIDC sin secretos persistentes y entornos GitHub con aprobación.
 Generar plan con credenciales del ambiente; vincularlo al SHA, lock y versión de
 Terraform. Caducarlo si cambia la revisión o el estado. Tratar plan/JSON como secreto.
 No ejecutar código de PR externo con credenciales de apply.
